@@ -15,8 +15,9 @@ public class MainActivity extends AppCompatActivity {
     private EditText textField;
     private ListView listView;
 
-    ArrayList<String> unosi = new ArrayList<String>();
+    private ArrayList<String> unosi = new ArrayList<String>();
     private ArrayAdapter<String> adapter;
+    private ArrayList<Muzicar> muzicari = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 textField.setText("");
             }
         });
+
     }
 
 }
