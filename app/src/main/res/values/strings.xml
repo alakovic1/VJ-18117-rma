@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">VJ-18117</string>
     <string name="press">PRESS</string>
+    <string name="todo">TODO</string>
 </resources>
