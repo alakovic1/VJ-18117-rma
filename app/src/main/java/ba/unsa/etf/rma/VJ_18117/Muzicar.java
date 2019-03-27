@@ -2,9 +2,9 @@ package ba.unsa.etf.rma.VJ_18117;
 
 public class Muzicar {
     private String imeIPrezime, zanr, webStrabica, biografija;
-    private String idSlike;
+    private int idSlike;
 
-    public Muzicar(String imeIPrezime, String zanr, String webStrabica, String biografija, String id) {
+    public Muzicar(String imeIPrezime, String zanr, String webStrabica, String biografija, int id) {
         this.imeIPrezime = imeIPrezime;
         this.zanr = zanr;
         this.webStrabica = webStrabica;
@@ -44,11 +44,11 @@ public class Muzicar {
         this.biografija = biografija;
     }
 
-    public String getIdSlike() {
+    public int getIdSlike() {
         return idSlike;
     }
 
-    public void setIdSlike(String idSlike) {
+    public void setIdSlike(int idSlike) {
         this.idSlike = idSlike;
     }
 }
