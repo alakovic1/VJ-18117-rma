@@ -82,15 +82,15 @@ public class MyAdapter extends BaseAdapter implements View.OnClickListener {
             holder.naziv.setText(muzicar.getImeIPrezime());
             holder.zanrMuzicara.setText(muzicar.getZanr());
             if (holder.zanrMuzicara.getText().equals("Rock'n'Roll"))
-                holder.ikonaZanra.setImageResource(res.getIdentifier("drawable/rocknroll.jpg", null, null));
+                holder.ikonaZanra.setImageResource(res.getIdentifier("ba.unsa.etf.rma.VJ_18117:drawable/rocknroll.jpg", null, null));
             else if (holder.zanrMuzicara.getText().equals("HIP HOP"))
-                holder.ikonaZanra.setImageResource(res.getIdentifier("drawable/hiphop.png", null, null));
+                holder.ikonaZanra.setImageResource(res.getIdentifier("ba.unsa.etf.rma.VJ_18117:drawable/hiphop.png", null, null));
             else if (holder.zanrMuzicara.getText().equals("Country"))
-                holder.ikonaZanra.setImageResource(res.getIdentifier("drawable/country.jpg", null, null));
+                holder.ikonaZanra.setImageResource(res.getIdentifier("ba.unsa.etf.rma.VJ_18117:drawable/country.jpg", null, null));
             else if (holder.zanrMuzicara.getText().equals("Classical"))
-                holder.ikonaZanra.setImageResource(res.getIdentifier("drawable/classical.jpg", null, null));
+                holder.ikonaZanra.setImageResource(res.getIdentifier("ba.unsa.etf.rma.VJ_18117:drawable/classical.jpg", null, null));
             else
-                holder.ikonaZanra.setImageResource(res.getIdentifier("drawable/jazz.png", null,null));
+                holder.ikonaZanra.setImageResource(res.getIdentifier("ba.unsa.etf.rma.VJ_18117:drawable/jazz.png", null,null));
             //v.setOnClickListener(new AdapterView.OnItemClickListener(position));
         }
         return v;

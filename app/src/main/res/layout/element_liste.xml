@@ -12,7 +12,9 @@
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginTop="5dp"
-        android:src="@drawable/star" />
+        android:contentDescription="@string/info_ikona"
+        android:src="@drawable/star"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
