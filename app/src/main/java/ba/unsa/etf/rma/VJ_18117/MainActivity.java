@@ -14,6 +14,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     private Button dugme;
+
     private EditText tekst;
     private ListView lista;
 
@@ -30,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
         tekst = (EditText) findViewById(R.id.editText);
         lista = (ListView) findViewById(R.id.listView);
         muzicari.add(new Muzicar("Cardi B", "HIP HOP", "https://en.wikipedia.org/wiki/Cardi_B", "Belcalis Marlenis Almánzar (born October 11, 1992), known professionally as Cardi B, is an American rapper, singer, and songwriter.",R.drawable.hiphop));
-        muzicari.add(new Muzicar("Ella Fitzgerald", "Jazz", "https://en.wikipedia.org/wiki/Ella_Fitzgerald", "Ella Jane Fitzgerald (April 25, 1917 – June 15, 1996) was an American jazz singer sometimes referred to as the First Lady of Song, Queen of Jazz, and Lady Ella.",R.drawable.jazz));
         muzicari.add(new Muzicar("Freddie Mercury", "Rock'n'Roll", "https://hr.wikipedia.org/wiki/Freddie_Mercury", " Freddie Mercury (Zanzibar, 5. rujna 1946. - London, 24. studenog 1991.), bio je britanski pjevač, tekstopisac i producent, najpoznatiji kao pjevač britanskog rock sastava Queen.",R.drawable.rocknroll));
         muzicari.add(new Muzicar("Blake Shelton", "Country", "https://en.wikipedia.org/wiki/Blake_Shelton", " Blake Tollison Shelton (born June 18, 1976) is an American country singer, songwriter and television personality.",R.drawable.country));
         muzicari.add(new Muzicar("Mozart", "Classical", "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart", " Wolfgang Amadeus Mozart (27 January 1756 – 5 December 1791), baptised as Johannes Chrysostomus Wolfgangus Theophilus Mozart,[b] was a prolific and influential composer of the classical era.",R.drawable.classical));
